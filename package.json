@@ -1,0 +1,27 @@
+{
+  "name": "planetsearchnexus",
+  "version": "0.0.1",
+  "description": "A game where you fight other space ships and try to be the last ship standing",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prolight14/planetsearchnexus.git"
+  },
+  "keywords": [
+    "javascript",
+    "phaser",
+    "space"
+  ],
+  "author": "prolight14",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prolight14/planetsearchnexus/issues"
+  },
+  "homepage": "https://github.com/prolight14/planetsearchnexus#readme",
+  "dependencies": {
+    "phaser": "^3.55.2"
+  }
+}
