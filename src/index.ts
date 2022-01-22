@@ -12,7 +12,7 @@ let config: Phaser.Types.Core.GameConfig = {
     },
     disableContextMenu: true,
     scene: [
-        
+        PlayScene
     ],
 }
 var game: Phaser.Game = new Phaser.Game(config);
