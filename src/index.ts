@@ -1,5 +1,7 @@
 // @ts-nocheck
 
+import PlayScene from "./Scenes/PlayScene";
+import PlayLogicScene from "./Scenes/PlayLogicScene";
 
 let config: Phaser.Types.Core.GameConfig = {
     type: Phaser.AUTO,
@@ -12,7 +14,7 @@ let config: Phaser.Types.Core.GameConfig = {
     },
     disableContextMenu: true,
     scene: [
-        PlayScene
+        PlayScene, PlayLogicScene
     ],
 }
 var game: Phaser.Game = new Phaser.Game(config);
